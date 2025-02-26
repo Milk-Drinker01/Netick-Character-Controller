@@ -20,3 +20,6 @@ This project contains a few key scripts:
 - NetworkedCharacterController.cs: base class for networked character controllers, containing the code needed to work around bugs with CharacterController
 - SimpleFirstPersonController.cs: a simple character controller with acceleration, jumping, and gravity
 - FirstPersonController.cs: a slightly more developed character controller with step-down handling, and separate deceleration values
+
+
+![image](https://github.com/user-attachments/assets/0edc3cc9-07bf-4650-85da-a7053aea4947)
