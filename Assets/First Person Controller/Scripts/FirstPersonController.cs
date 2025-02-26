@@ -13,10 +13,7 @@ public class FirstPersonController : NetworkedCharacterController
     }
 
     // Networked properties
-    // Relevancy.InputSource means that this property is only synced with the Input Source
     [Networked(relevancy: Relevancy.InputSource)] public Vector3 Velocity { get; set; }
-    // Using the [Smooth] Attribute will make this property return auto-interpolated values when used in NetworkRender 
-    //[Networked] [Smooth] public Vector2 YawPitch { get; set; }
     [Networked] [Smooth] public float Pitch { get; set; }
 
 
@@ -167,9 +164,7 @@ public class FirstPersonController : NetworkedCharacterController
             _velocity.y += GravityAcceleration * Sandbox.FixedDeltaTime;
 
             // move
-            //Debug.Log($"{Sandbox.Tick.TickValue}: {transform.position}");
             _CC.Move((_velocity) * Sandbox.FixedDeltaTime);
-            //Debug.Log($"{Sandbox.Tick.TickValue}: {transform.position}");
 
             bool groundedPostMove = IsGrounded();
 
