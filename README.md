@@ -2,7 +2,7 @@
  A project showing how to use the Character Controller component with Netick
 
 
-**WARNING: it is generally not recommended to use the CharacterController for server-authoritative multiplayer games.**
+**WARNING: it is generally not recommended to use the CharacterController for server-authoritative multiplayer games. Instead, you should use something like [KinematicCharacterController](https://github.com/Milk-Drinker01/Netick2-KCC)**
 
 &nbsp;
 
