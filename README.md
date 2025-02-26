@@ -2,7 +2,9 @@
  A project showing how to use the Character Controller component with Netick
 
 
-While I recomend against it, this code is mostly just workarounds to make the Character Controller component work in server-authoritative multiplayer games.
+WARNING: it is generally not recommended to use the CharacterController for server-authoritative multiplayer games.
+
+While I recommend against using it, this code contains workarounds to make the Character Controller component work in server-authoritative multiplayer games.
 
 The code gets around the following issues:
 1) CharacterController.IsGrounded only updates when physics is stepped, not on CharacterController.Move(). To get around this, I have written a custom IsGrounded() check (NetworkedCharacterController.cs)
