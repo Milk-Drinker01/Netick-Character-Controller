@@ -4,9 +4,11 @@
 
 **WARNING: it is generally not recommended to use the CharacterController for server-authoritative multiplayer games.**
 
+&nbsp;
 
 While I recommend against using it, this code contains workarounds to make the Character Controller component work in server-authoritative multiplayer games.
 
+&nbsp;
 
 The code works around the following issues:
 1) CharacterController.IsGrounded only updates when physics is stepped, not on CharacterController.Move(). This means it does not play nice with Client Side Prediction. To get around this, I have written a custom IsGrounded() check (NetworkedCharacterController.cs)
