@@ -5250,8 +5250,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1293352709}
   - component: {fileID: 1293352708}
-  - component: {fileID: 1293352711}
   - component: {fileID: 1293352710}
+  - component: {fileID: 1293352711}
   m_Layer: 0
   m_Name: Network
   m_TagString: Untagged
@@ -5330,11 +5330,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1293352707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb50a50b9feccad4a88f4bb104e391c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 13d95c28de1bac54f8b26fc8dd960077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPos: {fileID: 10129275}
   PlayerPrefab: {fileID: 7011933354638177272, guid: 4a8623ea07553dc4788e8d53a2ea8ff6, type: 3}
+  SpawnPosition: {fileID: 10129275}
+  HorizontalOffset: 1
+  StaggerSpawns: 1
+  DestroyPlayerObjectWhenLeaving: 1
 --- !u!1 &1294136793
 GameObject:
   m_ObjectHideFlags: 0
