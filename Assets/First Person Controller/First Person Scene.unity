@@ -5335,7 +5335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefab: {fileID: 7011933354638177272, guid: 4a8623ea07553dc4788e8d53a2ea8ff6, type: 3}
   SpawnPosition: {fileID: 10129275}
-  HorizontalOffset: 1
+  HorizontalOffset: 1.5
   StaggerSpawns: 1
   DestroyPlayerObjectWhenLeaving: 1
 --- !u!1 &1294136793
